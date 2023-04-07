@@ -16,17 +16,29 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
-          description: 90%
-          icon: r-project
+        - name: Python
+          description: 35%
+          icon: python
           icon_pack: fab
-        - name: Statistics
-          description: 100%
+        - name: Статистика
+          description: 10%
           icon: chart-line
           icon_pack: fas
-        - name: Photography
-          description: 10%
+        - name: Фотография
+          description: 42%
           icon: camera-retro
+          icon_pack: fas
+        - name: Творчество
+          description: 70%
+          icon: paint-brush
+          icon_pack: fas
+        - name: Иностранные языки
+          description: 100%
+          icon: language
+          icon_pack: fas
+        - name: Ответственность
+          description: 90%
+          icon: mortar-board
           icon_pack: fas
   - block: experience
     content:
@@ -40,27 +52,33 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Йога-инструктор
+          company: Breathe and Flow
+          company_url: 'https://www.breatheandflow.org/'
+          company_logo: yoga
+          location: Лос-Анджелес, США
+          date_start: '2021-12-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              Детали работы:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Занятия йогой
+              * Медитации
+              * Холодные ванны
+        - title: Хореограф K-pop Cover Dance
+          company: New G-Teens
+          company_url: 'https://vk.com/new.g_teens'
+          company_logo: dance
+          location: Березники, Россия
+          date_start: '2022-03-14'
+          date_end: '2022-08-22'
+          description: |2-
+              Проектная деятельность:
+
+              * New Jeans "Attention"
+              * Iz*One "Panorama"
+              * Blackpink "How you like that"
+              * Twice "Feel Special"
     design:
       columns: '2'
   - block: accomplishments
@@ -78,28 +96,20 @@ sections:
       items:
         - certificate_url: https://www.coursera.org
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2022-06-23'
           description: ''
           organization: Coursera
           organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          title: Программирование на Python для начинающих
           url: ''
         - certificate_url: https://www.edx.org
           date_end: ''
-          date_start: '2021-01-01'
+          date_start: '2023-03-15'
           description: Formulated informed blockchain models, hypotheses, and use cases.
           organization: edX
           organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
+          title: CS50 Computer Science Introduction
           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
     design:
       columns: '2'
   - block: collection

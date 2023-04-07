@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Влюблён в летние ночи
+role: Учусь
 
 # Organizations/Affiliations to show in About widget
 organizations:
